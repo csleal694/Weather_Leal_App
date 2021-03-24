@@ -1,0 +1,134 @@
+ body {
+     padding-top: 10px;
+     background: #1e3150;
+ }
+ 
+ h1 i {
+     font-size: 25px;
+     padding: 5px;
+ }
+ 
+ #city-form {
+     width: 30%;
+     text-align: left;
+     margin: 20px 100px;
+ }
+ 
+ h1 {
+     color: white;
+     text-align: left;
+     margin: 5px 100px;
+     font-size: 35px;
+     font-family: "Bebas Neue", cursive;
+     font-family: "Inter", sans-serif;
+     font-weight: normal;
+ }
+ 
+ h2 {
+     text-align: left;
+     margin: 5px 100px;
+     width: 100%;
+     font-family: "Inter", sans-serif;
+     font-size: 15px;
+     color: white;
+ }
+ 
+ h3 {
+     font-size: 25px;
+     color: white;
+     text-align: left;
+     margin: 2px 100px 30px;
+ }
+ 
+ .col-3 p {
+     color: white;
+     display: block;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 30px;
+     margin: 45px 0px 0px 0px;
+ }
+ 
+ .col-3 p1 {
+     color: white;
+     display: block;
+     font-size: 20px;
+     text-align: center;
+     border-radius: 30px;
+     margin: 45px 0px 0px 0px;
+ }
+ 
+ .col-3 p2 {
+     color: white;
+     display: block;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 30px;
+     margin: 45px 0px 0px 0px;
+ }
+ 
+ .col-3 p3 {
+     color: white;
+     display: block;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 30px;
+     margin: 45px 0px 0px 0px;
+ }
+ 
+ h4 {
+     text-align: left;
+     margin: 2px 100px;
+     color: white;
+ }
+ 
+ #celcius-click {
+     font-size: 21px;
+     text-align: top;
+     color: white;
+     margin: 0px 0px 20px 0px;
+ }
+ 
+ #fahrenheit-click {
+     font-size: 21px;
+     text-align: top;
+     color: white;
+     margin: 0px 0px 20px 0px;
+ }
+ 
+ main {
+     border-style: solid;
+     width: 550px;
+     height: 270px;
+     border: 50px;
+ }
+ 
+ #city {
+     font-size: 30px;
+     color: white;
+     text-align: left;
+     margin: 2px 100px;
+ }
+ 
+ #temperature {
+     font-size: 37px;
+     color: white;
+     text-align: left;
+     margin: 2px 100px;
+ }
+ 
+ #description {
+     font-size: 20px;
+     color: white;
+     text-align: left;
+     margin: 2px 100px;
+     text-transform: uppercase;
+ }
+ 
+ #search-text-input {
+     margin: 80px 0px 0px 0px;
+     height: 35px;
+     width: 200px;
+     font-size: 14pt;
+     text-align: center;
+ }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <script src="https://kit.fontawesome.com/5301b5dfe0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+
+
+        <form id="city-form">
+            <div class="col-3">
+                <input type="city" class="form-control" placeholder="Type a city..." autocomplete="off" autofocus="on" id="search-text-input" />
+
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+        <button type="button" class="btn btn-success" id="current">Current</button>
+        </div>
+        <div id="temperature"></div>
+        <h1 id="city"></h1>
+        <div id="description"></div>
+        <div class="col-6">
+            <h2></h2>
+        </div>
+        <div class="col-12">
+            <h3></h3>
+        </div>
+
+
+        <div>
+        </div>
+        <h5></h5>
+
+
+    </main>
+    <br/>
+    <form>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <p> Mon
+                        <br/>
+                        <i class="fas fa-sun"></i>
+                        <br/> 30°C | 98°F
+                    </p>
+                </div>
+                <div class="col-3">
+                    <p1>
+                        Tues
+                        <br/>
+                        <i class="fas fa-cloud-sun"></i>
+                        <br/> 15°C | 42°F
+                    </p1>
+                </div>
+                <div class="col-3">
+                    <p2>
+                        Wed
+                        <br/>
+                        <i class="fas fa-cloud-moon-rain"></i>
+                        <br/> 1°C | 11°F
+                    </p2>
+                </div>
+                <div class="col-3">
+                    <p3>
+                        Thurs
+                        <br/>
+                        <i class="fas fa-snowman"></i>
+                        <br/> -4°C | 12°F
+                    </p3>
+                </div>
+
+                <script src="src/index.js"></script>
+
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
