@@ -106,8 +106,8 @@
  #city {
      font-size: 30px;
      color: white;
-     text-align: left;
-     margin: 2px 100px;
+     padding: 0;
+     margin: 2px 10px;
  }
  
  #temperature {
@@ -121,7 +121,7 @@
      font-size: 20px;
      color: white;
      text-align: left;
-     margin: 2px 100px;
+     margin: 2px 10px;
      text-transform: uppercase;
  }
  
@@ -131,4 +131,77 @@
      width: 200px;
      font-size: 14pt;
      text-align: center;
+ }
+ 
+ #date {
+     margin: 2px 10px;
+ }
+ 
+ p6 {
+     text-align: left;
+     margin: 10px 65px;
+     color: white;
+ }
+ 
+ ul {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ li {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     color: white;
+     font-size 16px;
+     font-weight 400;
+     line-height 20px;
+ }
+ 
+ li:first-letter {
+     text-transform: capitalize;
+ }
+ 
+ .weather-app-wrapper {
+     max-width: 600px;
+     margin: 30px auto;
+ }
+ 
+ .weather-app {
+     padding: 20px;
+     border: 1px solid #dadde1;
+     border-radius: 5px;
+ }
+ 
+ .overview {
+     margin-bottom: 20px;
+ }
+ 
+ .weather-temperature img {
+     margin-right: 5px;
+     height: 64px;
+     width: 64px;
+ }
+ 
+ .weather-temperature strong {
+     color: white;
+     font-size: 64px;
+     font-weight: 400;
+     line-height: 1;
+ }
+ 
+ .weather-temperature .units {
+     position: relative;
+     font-size: 16px;
+     top: -34px;
+ }
+ 
+ .weather-temperature .active {
+     color: rgb(33, 33, 33);
+     cursor: default;
+     text-decoration: none;
+ }
+ 
+ .weather-temperature .active:hover {
+     text-decoration: none;
  }

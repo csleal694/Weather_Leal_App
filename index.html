@@ -19,81 +19,97 @@
 
 <body>
 
-    <main>
-
-
-        <form id="city-form">
-            <div class="col-3">
-                <input type="city" class="form-control" placeholder="Type a city..." autocomplete="off" autofocus="on" id="search-text-input" />
-
+    <div class="container">
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+                <form id="search-form" class="mb-3">
+                    <div class="row">
+                        <div class="col-9">
+                            <input type="search" placeholder="Type a city..." class="form-control" id="city-input" autocomplete="off" />
+                        </div>
+                        <div class=" col-3">
+                            <input type="submit" value="Search" class="btn btn-primary w-100" />
+                        </div>
+                    </div>
+                </form>
+                <div class="overview">
+                    <h1 id="city"></h1>
+                    <ul>
+                        <li>Last update:<span id="date"></span></li>
+                        <li id="description"></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="clearfix weather-temperature">
+                            <img src="" alt="clear" id="icon" class="float-left" />
+                            <div class="float-left">
+                                <div></div>
+                                <strong id="temperature"></strong><span class="units"><a href="#" id="celsius-link" class="a">°C</a>| <a href="#" id="fahrenheit-link">°F</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 ">
+                        <ul>
+                            <li>
+                                Humidity: <span id="humidity"></span>%</li>
+                            <li>
+                                Wind: <span id="wind"></span> km/hr</li>
+                            <li>
+                                Precipitation: <span id="precipitation"></span>%</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <button class="btn btn-primary" type="submit">Submit</button>
-        </form>
-        <button type="button" class="btn btn-success" id="current">Current</button>
-        </div>
-        <div id="temperature"></div>
-        <h1 id="city"></h1>
-        <div id="description"></div>
-        <div class="col-6">
-            <h2></h2>
-        </div>
-        <div class="col-12">
-            <h3></h3>
-        </div>
+            <h5></h5>
 
 
-        <div>
-        </div>
-        <h5></h5>
+            </main>
+            <br/>
+            <form>
 
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <p> Mon
+                                <br/>
+                                <img src="" alt="clear" id="icon" class="float-left" />
+                                <br/> 30°C | 98°F
+                            </p>
+                        </div>
+                        <div class="col-3">
+                            <p1>
+                                Tues
+                                <br/>
+                                <i class="fas fa-cloud-sun"></i>
+                                <br/> 15°C | 42°F
+                            </p1>
+                        </div>
+                        <div class="col-3">
+                            <p2>
+                                Wed
+                                <br/>
+                                <i class="fas fa-cloud-moon-rain"></i>
+                                <br/> 1°C | 11°F
+                            </p2>
+                        </div>
+                        <div class="col-3">
+                            <p3>
+                                Thurs
+                                <br/>
+                                <i class="fas fa-snowman"></i>
+                                <br/> -4°C | 12°F
+                            </p3>
+                        </div>
 
-    </main>
-    <br/>
-    <form>
+                        <script src="src/script.js"></script>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <p> Mon
-                        <br/>
-                        <i class="fas fa-sun"></i>
-                        <br/> 30°C | 98°F
-                    </p>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <p1>
-                        Tues
-                        <br/>
-                        <i class="fas fa-cloud-sun"></i>
-                        <br/> 15°C | 42°F
-                    </p1>
-                </div>
-                <div class="col-3">
-                    <p2>
-                        Wed
-                        <br/>
-                        <i class="fas fa-cloud-moon-rain"></i>
-                        <br/> 1°C | 11°F
-                    </p2>
-                </div>
-                <div class="col-3">
-                    <p3>
-                        Thurs
-                        <br/>
-                        <i class="fas fa-snowman"></i>
-                        <br/> -4°C | 12°F
-                    </p3>
-                </div>
-
-                <script src="src/script.js"></script>
-
-            </div>
-        </div>
-    </form>
-    <p6>
-        <a href="https://github.com/csleal694/Weather_Leal_App">Open-source code</a> <span>by Cynthia Leal </span>
-    </p6>
+            </form>
+            <p6>
+                <a href="https://github.com/csleal694/Weather_Leal_App">Open-source code</a> <span>by Cynthia Leal </span>
+            </p6>
 </body>
 
 </html>
